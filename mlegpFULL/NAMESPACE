@@ -1,0 +1,33 @@
+# NAMESPACE file 
+useDynLib(mlegpFULL)
+exportPattern("^[^\\.]")
+
+export(FANOVADecomposition)
+
+S3method(plot, gp)
+export(plot.gp)
+
+S3method(plot, gp.list)
+export(plot.gp.list)
+
+S3method(plotMainEffects, gp)
+export(plotMainEffects.gp)
+
+S3method(plotMainEffects, gp.list)
+export(plotMainEffects.gp.list)
+
+S3method(FANOVADecomposition, gp)
+export(FANOVADecomposition.gp)
+
+S3method(FANOVADecomposition, gp.list)
+export(FANOVADecomposition.gp.list)
+
+S3method(plotObservedEffects, gp)
+export(plotObservedEffects.gp)
+
+S3method(predict, gp)
+export(predict.gp)
+
+S3method(summary, gp)
+export(summary.gp)
+
