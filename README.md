@@ -14,6 +14,8 @@ computer models of biological systems using R. Bioinformatics 24(17),
 pp. 1966-1967. \[PMID: [18635570](http://www.ncbi.nlm.nih.gov/pubmed/18635570)\]
 
 ## Installation
+
+**Note: In order to install *adapt*, you will need R 4.0.3 or lower**
  
 In order to use the "full version" of mlegp you will need to download and install the package *adapt* from http://cran.r-project.org/src/contrib/Archive/adapt/. For adapt to work on R >=3.0 you will need to add a NAMESPACE file. Untar the *adapt* archive, and then add a file called NAMESPACE to the top directory that contains the DESCRIPTION and README files, among others.
  
